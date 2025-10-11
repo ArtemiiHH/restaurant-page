@@ -1,2 +1,2 @@
 # restaurant-page
-Restaurant Page Project using Webpack in TOP
+Restaurant page project using Webpack in TOP
