@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant page project using Webpack in TOP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemiiHH/restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemiiHH/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/ArtemiiHH/restaurant-page#readme",
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}
