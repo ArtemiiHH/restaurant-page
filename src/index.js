@@ -1,3 +1,3 @@
 import "./styles.css";
 
-console.log('Working...');
+console.log('Everything is up to date');
