@@ -7,9 +7,11 @@ function createAbout() {
   about.classList.add('about');
 
   const heading = document.createElement('h2');
+  heading.classList.add('about-title');
   heading.textContent = 'About us';
 
   const img = document.createElement('img');
+  img.classList.add('about-img');
   img.src = aboutImage;
   img.alt = 'A cook cutting vegetables for a crispy Shawarma.';
 
