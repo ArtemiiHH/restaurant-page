@@ -1,3 +1,5 @@
 import "./styles.css";
 
-console.log('Everything is up to date');
+function loadContent() {};
+
+window.addEventListener('load', () => loadContent(console.log('Hello')));
