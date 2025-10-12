@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import loadHome from "./js/home.js";
+import loadHome from "./js/home";
 
 window.addEventListener("load", () => {
   loadHome();
