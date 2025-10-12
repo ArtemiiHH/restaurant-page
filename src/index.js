@@ -3,7 +3,3 @@
 import "./styles.css";
 
 import loadPage from "./js/loadPage";
-
-window.addEventListener("load", () => {
-  loadPage();
-});
