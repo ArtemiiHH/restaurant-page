@@ -3,3 +3,5 @@
 import "./styles.css";
 
 import loadPage from "./js/loadPage";
+
+loadPage();
