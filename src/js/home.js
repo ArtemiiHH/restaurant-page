@@ -1,0 +1,1 @@
+import homeImage from "./images/shawarma.jpg";
