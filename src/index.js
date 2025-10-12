@@ -2,8 +2,8 @@
 
 import "./styles.css";
 
-import loadHome from "./js/home";
+import loadPage from "./js/loadPage";
 
 window.addEventListener("load", () => {
-  loadHome();
+  loadPage();
 });
