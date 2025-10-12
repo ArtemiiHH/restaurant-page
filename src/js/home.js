@@ -1,7 +1,5 @@
-import homeImage from "./images/shawarma.jpg";
+function createHome() {
+  
+}
 
-function homepage() {
-
-};
-
-export default homepage;
+export default createHome;
