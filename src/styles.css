@@ -34,11 +34,6 @@ nav {
   gap: 30px;
 }
 
-/* Page Content */
-#content {
-  flex: 1;
-}
-
 /* Tabs */
 button {
   background-color: var(--color-bg);
@@ -57,4 +52,22 @@ button:hover {
 img {
   height: 400px;
   width: auto;
+  border-radius: 20px;
+}
+
+.home,
+.about,
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home p,
+.about p,
+.contact p {
+  width: 700px;
+  padding: 20px;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
