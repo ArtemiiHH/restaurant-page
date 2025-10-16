@@ -23,6 +23,7 @@ function createHome() {
 
   // Append items
   home.append(heading, img, paragraph);
+  content.appendChild(home);
   return home;
 };
 
