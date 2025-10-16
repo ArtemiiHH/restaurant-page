@@ -11,6 +11,7 @@ function createContact() {
   paragraph.textContent = 'Number: \n+357 99080877\n Email: \nexample@gmail.com\n Address: \nRandom Street 23, 7658';
 
   contact.append(heading, paragraph);
+  content.appendChild(contact);
   return contact;
 };
 
