@@ -9,6 +9,7 @@ function loadPage() {
   const btnAbout = document.querySelector(".tab-about");
   const btnContact = document.querySelector(".tab-contact");
 
+  // Clear content and append Homepage on load
   content.innerHTML = '';
   content.appendChild(createHome());
 
