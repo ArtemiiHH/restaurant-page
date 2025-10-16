@@ -19,6 +19,7 @@ function createAbout() {
   paragraph.textContent = 'At the heart of our kitchen, passion meets precision. Our chef transforms fresh, vibrant vegetables and carefully selected ingredients into a visually stunning and delicious shawarma. Every cut, every spice, every moment in the kitchen is dedicated to creating a culinary experience that\'s as beautiful as it is flavorful';
 
   about.append(heading, img, paragraph);
+  content.appendChild(about);
   return about;
 };
 
