@@ -12,7 +12,10 @@ function loadPage() {
   const btnAbout = document.querySelector(".tab-about");
   const btnContact = document.querySelector(".tab-contact");
 
-  createHome();
+  nav.append(btnHome, btnAbout, btnContact);
+  header.appendChild(nav);
+  content.appendChild(header);
+  content.appendChild(createHome());
 
   btnHome.addEventListener("click", () => {
     content.innerHTML = "";
@@ -31,10 +34,6 @@ function loadPage() {
     content.appendChild(header);
     createContact();
   });
-
-  nav.append(btnHome, btnAbout, btnContact);
-  header.appendChild(nav);
-  content.appendChild(header);
 }
 
 export default loadPage;
