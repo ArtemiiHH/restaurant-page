@@ -8,7 +8,7 @@ function createContact() {
   heading.textContent = 'Contact us';
 
   const paragraph = document.createElement('p');
-  paragraph.textContent = 'Number: \n+357 99080877\n Email: \nexample@gmail.com\n Address: \nRandom Street 23, 7658';
+  paragraph.innerHTML = "Number: +357 99080877 <br> Email: example@gmail.com <br> Address: Random Street 23, 7658";
 
   contact.append(heading, paragraph);
   content.appendChild(contact);
